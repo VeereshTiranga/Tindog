@@ -1,0 +1,140 @@
+body{
+  font-family: "Montserrat";
+}
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "montserrat-Bold";
+  font-size: 4rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: "montserrat-bold";
+}
+p{
+  color: grey;
+}
+
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+#features{
+  padding: 7% 15%;
+  text-align: center;
+background-color: white;
+position: relative;
+z-index: 1;
+}
+#testimonals{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 1% 15% 5%;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+#cta{
+background-color: #ff4c68;
+color: #fff;
+padding: 7% 15%;
+text-align: center;
+}
+#footer{
+  text-align: center;
+  padding: 50px 100px;
+  background-color: #fff;
+}
+a{
+  color: black;
+}
+.big-heading{
+  text-align: left;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.iphone{
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 100px;
+}
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  padding: 0 18px 0 18px;
+}
+.nav-link{
+  font-family: "montserrat-light";
+  font-size: 1.2rem;
+}
+.download-button{
+  margin: 3% 5% 3% 0;
+}
+.testimonal-class{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.zz {
+  position: absolute;
+}
+.press-logo{
+  width: 20%;
+}
+.feature-box{
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+.testimonal-class-pp{
+  width: 10%;
+  border-radius: 75%;
+  margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.pricing-column{
+  padding: 2% 3%;
+}
+@media (max-width: 1028px) {
+.zz{
+  position: static;
+  margin-right: 130px;
+}
+.iphone{
+  transform: rotate(0);
+  left: 20px;
+}
+}
+
+.cta-heading{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.fa-brands{
+  padding: 7.5px;
+}
